@@ -1,0 +1,23 @@
+:root {
+    --color-1: #4bacf5;
+    --color-2: #6fbdf7;
+    --color-3: #93cdf9;
+    --color-4: #b7defb;
+    --color-5: #dbeefd;
+}
+
+@font-face {
+    font-family: Barlow;
+    src: url("../assets/fonts/Barlow.ttf");
+}
+
+html, body
+{
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-5);
+    font-family: Barlow;
+}
